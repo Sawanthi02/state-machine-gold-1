@@ -1,0 +1,25 @@
+eerste inlever moment voor Game Programming gold 1:
+	het maken van een state machine
+
+gebruikte hulpmiddelen:
+	Finite State Machines in Godot | Godot Starter Kit FSM: https://www.youtube.com/watch?v=i0Y6anqiJ-g&ab_channel=ForlornU
+	How To Easily Add Collision to Your Tilemap in Godot 4: https://www.nightquestgames.com/adding-collision-to-tilemaps-in-godot-4/
+	
+	ChatGPT voor hulp bij het correct weergeven van animatie richting en buggfixing
+	
+	Mossy Cavern by Maaot: https://maaot.itch.io/mossy-cavern
+	Knight sprites door @Jump_Button op twitter
+
+
+
+!!!!!!!! run Game.tscn voor playtesting !!!!!!!!!
+
+controls:
+	Walk right	->
+	Walk left	<-
+	jump			↑
+	dash			↓
+
+enjoy!
+
+- Sawanthi Mooijman :) 

@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://b6urvewjqenvr"]
+
+[ext_resource type="PackedScene" uid="uid://cjd3vr7cd78ul" path="res://levels/world1.tscn" id="1_e8jnu"]
+[ext_resource type="PackedScene" uid="uid://cuh71vifg6ydq" path="res://nodes/player/player.tscn" id="2_dms1n"]
+[ext_resource type="PackedScene" uid="uid://ua8kbe7dmf4p" path="res://nodes/camera.tscn" id="3_0bu8r"]
+
+[node name="Game" type="Node"]
+
+[node name="World1" parent="." instance=ExtResource("1_e8jnu")]
+
+[node name="Player" parent="." instance=ExtResource("2_dms1n")]
+position = Vector2(626, 27)
+
+[node name="Node2D" parent="." node_paths=PackedStringArray("target") instance=ExtResource("3_0bu8r")]
+position = Vector2(626, 27)
+target = NodePath("../Player")
